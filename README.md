@@ -175,12 +175,23 @@ Locate the file named:
 
 Rename this file to:
 - ost-config.php
+
+After renaming the file, you need to restrict its permissions to protect sensitive configuration data.
+
+Steps to Secure ost-config.php:
+- Right-click on the file → Properties
+- Go to the Security tab → click Advanced
+- Click “Disable inheritance”
+- When prompted, choose “Remove all inherited permissions from this object”
+- Click “Add” → Select a principal → Type in Everyone → click OK
+- Under Permissions, check Full Control and click OK
+- Apply the changes and close all dialog boxes
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/k75bCyb.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
