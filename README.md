@@ -140,10 +140,24 @@ This will launch your default web browser and open the osTicket web installer us
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Before completing the osTicket installation, we need to ensure that essential PHP extensions are enabled through PHP Manager in IIS.
+
+Steps to Enable Extensions:
+Open IIS Manager
+
+Navigate to:
+- Sites → Default Web Site → osTicket
+
+In the Features View, double-click on PHP Manager
+
+Click on “Disable or enable an extension”
+
+From the list of available extensions, enable the following:
+- php_intl.dll
+- php_opcache.dll
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gqy1cHT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
