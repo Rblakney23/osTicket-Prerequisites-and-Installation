@@ -91,7 +91,7 @@ Once installed, IIS will be ready to serve your PHP-based web application. You c
 With IIS now enabled, the next step is to install the Web Platform Installer (Web PI). This tool simplifies the process of downloading and installing the components required for osTicket, such as PHP, MySQL, and other necessary extensions.
 
 Use the following link to access all the files you'll need for this setup:
-- Download osTicket Lab Files & Web Platform Installer
+- [Download osTicket Lab Files & Web Platform Installer](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 Open the link above
 
