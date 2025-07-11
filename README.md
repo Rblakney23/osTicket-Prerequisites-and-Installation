@@ -42,11 +42,23 @@ For this demonstration, I’ll be using a VM with 4 vCPUs to ensure smooth perfo
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once your virtual machine has been successfully deployed, the next step is to connect to it via Remote Desktop Protocol (RDP).
+
+In the Azure portal, go to your VM's overview page.
+
+Locate and copy the Public IPv4 address of the VM.
+
+Open your RDP client and connect using the IP address.
+
+Mac Users:
+You’ll need to download the Microsoft Remote Desktop app from the Mac App Store if you haven’t already.
+
+Once connected, log in using the username and password you set during the VM creation process.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/x93jbDZ.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
