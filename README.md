@@ -143,6 +143,7 @@ This will launch your default web browser and open the osTicket web installer us
 Before completing the osTicket installation, we need to ensure that essential PHP extensions are enabled through PHP Manager in IIS.
 
 Steps to Enable Extensions:
+
 Open IIS Manager
 
 Navigate to:
