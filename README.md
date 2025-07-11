@@ -157,7 +157,7 @@ From the list of available extensions, enable the following:
 - php_opcache.dll
 </p>
 <p>
-<img src="https://i.imgur.com/gqy1cHT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gqy1cHT.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
