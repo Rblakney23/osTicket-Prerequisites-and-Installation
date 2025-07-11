@@ -105,10 +105,19 @@ Follow the prompts to complete the installation
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the Web Platform Installer (Web PI) is installed, we’ll use it to install the necessary backend components for osTicket.
+
+Inside Web Platform Installer:
+Launch Web Platform Installer
+
+Use the search bar to find and install:
+- MySQL 5.5
+- PHP (select the x86 versions, up to version 7.3)
+
+Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3bL41Ax.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
