@@ -163,7 +163,21 @@ From the list of available extensions, enable the following:
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To complete the installation, you’ll need to rename and secure the osTicket configuration file.
+
+Step-by-Step Instructions:
+
+Navigate to the following folder on your VM:
+- C:\inetpub\wwwroot\osTicket\include\
+
+Locate the file named:
+- ost-sampleconfig.php
+
+Rename this file to:
+- ost-config.php
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
