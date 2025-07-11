@@ -53,6 +53,7 @@ Locate and copy the Public IPv4 address of the VM.
 Open your RDP client and connect using the IP address.
 
 Mac Users:
+
 You’ll need to download the Microsoft Remote Desktop app from the Mac App Store if you haven’t already.
 
 Once connected, log in using the username and password you set during the VM creation process.
