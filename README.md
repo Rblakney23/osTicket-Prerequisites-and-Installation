@@ -122,10 +122,20 @@ Next download osTicket. Then extract and copy the "upload" folder into c:\inetpu
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With all dependencies installed, it’s time to access the osTicket setup through your browser.
+
+Open IIS Manager on your virtual machine
+
+In the left-hand sidebar, expand:
+- Sites → Default Web Site → osTicket (or the folder where you placed the osTicket files)
+
+With the osTicket site selected, look to the right-hand "Actions" pane and click:
+- “Browse *.80”
+
+This will launch your default web browser and open the osTicket web installer using the local server URL (typically http://localhost/osTicket).
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="blob:https://imgur.com/a9c4b589-6255-424c-a6d3-ba24d2f3df1c" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
