@@ -211,6 +211,7 @@ You’ll be prompted to configure basic help desk settings:
 
 <p>
 Final Configuration in the Browser
+  
 In the osTicket web installer, fill in your MySQL database details:
 - MySQL Database: 
 - MySQL Username:
@@ -218,7 +219,7 @@ In the osTicket web installer, fill in your MySQL database details:
 
 Click “Install Now!” to complete the installation.
 
-If everything was configured correctly, you should see a confirmation message — osTicket has been successfully installed!
+If everything was configured correctly, you should see a confirmation message: osTicket has been successfully installed!
 
 Post-Installation Cleanup (Very Important)
 To secure your environment, complete the following cleanup tasks:
