@@ -100,7 +100,7 @@ Download and run the Web Platform Installer from the provided files
 Follow the prompts to complete the installation
 </p>
 <p>
-<img src="https://i.imgur.com/BbmzmYb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BbmzmYb.png" height="100%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
