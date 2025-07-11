@@ -64,18 +64,43 @@ Once connected, log in using the username and password you set during the VM cre
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that you're connected to your virtual machine, the next step is to enable IIS (Internet Information Services) — the web server that will host the osTicket application.
+
+Follow these steps:
+
+Open the Control Panel
+
+Click on “Uninstall a Program”
+
+In the left sidebar, select “Turn Windows features on or off”
+
+In the list that appears, scroll down and check the box for "Internet Information Services"
+
+Click OK to install IIS.
+
+This process may take a few minutes to complete.
+
+Once installed, IIS will be ready to serve your PHP-based web application. You can test that it's working by opening a browser on the VM and navigating to http://localhost — you should see the default IIS welcome page.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OF6ho1G.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With IIS now enabled, the next step is to install the Web Platform Installer (Web PI). This tool simplifies the process of downloading and installing the components required for osTicket, such as PHP, MySQL, and other necessary extensions.
+
+Use the following link to access all the files you'll need for this setup:
+- Download osTicket Lab Files & Web Platform Installer
+
+Open the link above
+
+Download and run the Web Platform Installer from the provided files
+
+Follow the prompts to complete the installation
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BbmzmYb.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
