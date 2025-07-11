@@ -196,14 +196,6 @@ Steps to Secure ost-config.php:
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
 With all configurations and permissions set, return to your browser to complete the web-based osTicket installation.
 
 Steps:
@@ -218,17 +210,34 @@ You’ll be prompted to configure basic help desk settings:
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+Final Configuration in the Browser
+In the osTicket web installer, fill in your MySQL database details:
+- MySQL Database: 
+- MySQL Username:
+- MySQL Password: 
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click “Install Now!” to complete the installation.
+
+If everything was configured correctly, you should see a confirmation message — osTicket has been successfully installed!
+
+Post-Installation Cleanup (Very Important)
+To secure your environment, complete the following cleanup tasks:
+
+Delete the Setup Directory:
+- Navigate to: C:\inetpub\wwwroot\osTicket\setup
+- Delete the entire setup folder
+
+This prevents reinstallation and blocks potential attackers from accessing the installer.
+
+Secure the Configuration File:
+- Go to: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Right-click the file → Properties → Security
+- Set Permissions to Read-only for all users
+
+Logging into the Admin Panel
+You can now access the osTicket admin dashboard:
+- Log in with the admin credentials you created during the initial setup.
 </p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+
+
+
