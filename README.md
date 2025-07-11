@@ -135,7 +135,7 @@ With the osTicket site selected, look to the right-hand "Actions" pane and click
 This will launch your default web browser and open the osTicket web installer using the local server URL (typically http://localhost/osTicket).
 </p>
 <p>
-<img src="blob:https://imgur.com/a9c4b589-6255-424c-a6d3-ba24d2f3df1c" height="400%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DFrkgwD.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
