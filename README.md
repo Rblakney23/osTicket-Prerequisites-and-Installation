@@ -188,7 +188,7 @@ Steps to Secure ost-config.php:
 - Apply the changes and close all dialog boxes
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6CA6htT.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://i.imgur.com/k75bCyb.png" height="400%" width="80%" alt="Disk Sanitization Steps"/>
@@ -204,10 +204,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+With all configurations and permissions set, return to your browser to complete the web-based osTicket installation.
+
+Steps:
+- In your browser (e.g., http://localhost/osTicket), click the “Continue” button to proceed with the installer.
+
+You’ll be prompted to configure basic help desk settings:
+- Help Desk Name – Choose a name that represents your support environment (e.g., Acme Support Portal)
+- Default System Email – Select or enter an email address that will receive all incoming support tickets from users
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vd3Ex6A.png" height="4000%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
